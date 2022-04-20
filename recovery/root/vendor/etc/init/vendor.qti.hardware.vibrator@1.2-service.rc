@@ -1,7 +1,7 @@
 on boot
-    start qti-vibrator
+    start qti.vibrator-1-2
 
-service qti-vibrator /system/bin/vendor.qti.hardware.vibrator.service
+service qti.vibrator-1-2 /system/bin/vendor.qti.hardware.vibrator@1.2-service
     user root
     group root
     disabled
